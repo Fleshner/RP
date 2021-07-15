@@ -15,7 +15,8 @@ print(user)
 #import random
 from random import choice
 
-print("Rock, Paper, Scissors, Shoot!")
+print("...welcome to my game!")
+
 x = input("Choose rock, paper, or scissors:")
 print(x)
 #if x == "rock": # "paper" "scissors"
@@ -48,4 +49,5 @@ elif x == "scissors" and c == "rock":
     print("Rock smashes scissors. Sorry, you lose!")
 elif x == "scissors" and c == "paper":
     print("Scissors cuts paper. Nice, you win!")
-print("Play Again?")
+print(user)
+print("...play again?")
