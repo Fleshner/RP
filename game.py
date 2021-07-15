@@ -1,3 +1,17 @@
+
+import os
+from dotenv import dotenv_values
+from dotenv.main import load_dotenv
+
+load_dotenv()
+
+
+user = os.getenv("USER_NAME")
+
+
+print(user)
+
+
 #import random
 from random import choice
 
@@ -34,3 +48,4 @@ elif x == "scissors" and c == "rock":
     print("Rock smashes scissors. Sorry, you lose!")
 elif x == "scissors" and c == "paper":
     print("Scissors cuts paper. Nice, you win!")
+print("Play Again?")
